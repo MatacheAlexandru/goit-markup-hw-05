@@ -3,6 +3,17 @@
 *::after {
     box-sizing: border-box;
 }
+@media only screen and (max-width: 768px) {
+    /* Stiluri pentru ecrane mici, cum ar fi telefoane mobile */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Stiluri pentru tablete */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Stiluri pentru ecrane mari, cum ar fi desktop-uri */
+}
 
 * {
     margin: 0;
@@ -494,7 +505,7 @@ width: 16.5em;
 height: 26.75em;
 box-shadow: 0em 0.125em 0.0625em 0em rgba(46, 47, 66, 0.08), 0em 0.0625em 0.0625em 0em rgba(46, 47, 66, 0.16), 0em 0.0625em 0.375em 0em rgba(46, 47, 66, 0.08);
 background: #fff; 
-box-shadow: 0em 0em 0.625em 0.3125em rgba(0, 0, 0, 0.3);
+box-shadow: 0em 0em 0.625em 0.3125em rgba(0, 0, 0, 0.1);
 }
 
 
