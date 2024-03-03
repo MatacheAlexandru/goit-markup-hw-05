@@ -27,7 +27,6 @@
     <title>Homework#2</title>
   </head>
   <body class="body">
-<div class="modal-background">  
     <!-- Top Line -->
 
     <header>
@@ -35,16 +34,16 @@
         <div class="container">
           <div class="position-topline">
 <span class="logo">
-            <a class="web-logo" href="index.html" type="button">WEB</a>
-            <a class="studio-logo" href="index.html" type="button">STUDIO</a>
+            <a class="web-logo" href="index.html">WEB</a>
+            <a class="studio-logo" href="index.html" >STUDIO</a>
           </span>
           <nav>
             <span class="nav-menu">
-              <a class="nav-studio" href="index.html" type="button">Studio</a>
-              <a class="nav-portfolio" href="portfolio.html" type="button"
+              <a class="nav-studio" href="index.html" >Studio</a>
+              <a class="nav-portfolio" href="portfolio.html" 
                 >Portfolio</a
               >
-              <a class="nav-contacts" href="" type="button">Contacts</a>
+              <a class="nav-contacts" href="">Contacts</a>
             </span>
           </nav>
           <span class="email-phone">
@@ -68,8 +67,8 @@
               for Your Business
             </h1>
             <div class="button">
-              <button id="openModalBtn" type="button" class="order-service">Order Service</button>
-              <div class="modal is-hidden" id="modal">
+              <button id="openModalBtn" type="button" class="order-service" data-modal-open>Order Service</button>
+              <div class="modal is-hidden" id="modal" data-modal>
                 <button class="close-modal" id="closeModalBtn" data-modal-close>
                   <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g clip-path="url(#clip0_654301_512)">
@@ -94,7 +93,7 @@
         <div class="container">
           <div class="section94px">
              <section class="section1" title="Section1">
-              <span class="feature1">
+              <div class="feature1">
                 <svg width="264" height="112" viewBox="0 0 264 112" style="background: #f4f4fd;">
                   <image xlink:href="./images/antenna1.svg" width="64" height="64" x="100" y="24">
                 </svg>
@@ -103,8 +102,8 @@
                   Our goal is to identify the business problem to walk away with
                   the perfect and creative solution.
                 </p>
-              </span>
-              <span class="feature2">
+              </div>
+              <div class="feature2">
                 <svg width="264" height="112" viewBox="0 0 264 112" style="background: #f4f4fd;">
                   <image xlink:href="./images/clock1.svg" width="64" height="64" x="100" y="24">
                 </svg>
@@ -113,8 +112,8 @@
                   Bring the key message to the brand's audience for the best
                   price within the shortest possible time.
                 </p>
-              </span>
-              <span class="feature3">
+              </div>
+              <div class="feature3">
                 <svg width="264" height="112" viewBox="0 0 264 112" style="background: #f4f4fd;">
                   <image xlink:href="./images/diagram1.svg" width="64" height="64" x="100" y="24">
                 </svg>
@@ -123,8 +122,8 @@
                   Research and confirm brands that present the strongest digital
                   growth opportunities and minimize risk.
                 </p>
-              </span>
-              <span class="feature4">
+              </div>
+              <div class="feature4">
                 <svg width="264" height="112" viewBox="0 0 264 112" style="background: #f4f4fd;">
                   <image xlink:href="./images/astronaut1.svg" width="64" height="64" x="100" y="24">
                 </svg>
@@ -133,7 +132,7 @@
                   Design practice focused on digital experiences. We bring forth
                   a deep passion for problem-solving.
                 </p>
-              </span>
+              </div>
             </section>
           </div>
           
@@ -424,10 +423,9 @@
            <div class="position-footer">
               <div class="logo-text">
               <span class="logo-footer">
-                <a class="web-footer" href="index.html" type="button">WEB</a>
-                <a class="studio-footer" href="index.html" type="button"
-                  >STUDIO</a
-                >
+                <a class="web-footer" href="index.html">WEB</a>
+                <a class="studio-footer" href="index.html">STUDIO
+                </a>
               </span>
               <div class="text-footer">
                 <p class="text5">
@@ -474,8 +472,8 @@
           
         </div>    
       </section>
-    </footer></div>
+    </footer>
 
-    <script src="..../java-script/modal.js"></script>  
+    <script src="java-script/modal.js"></script>  
   </body>
 </html>
